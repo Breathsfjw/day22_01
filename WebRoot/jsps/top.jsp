@@ -31,7 +31,7 @@
   </head>
   
   <body>
-  <h1 style="text-align: center;">ITCAST书店</h1>
+  <h1 style="text-align: center;">丢丢的书店</h1>
   <c:choose>
   	<c:when test="${empty sessionScope.session_user }">
   		<a href="<c:url value='/jsps/user/login.jsp'/>" target="_parent">登录</a> |&nbsp; 
